@@ -6,23 +6,24 @@ $open-sans:            'Open Sans';
 $open-sans-sans-serif: 'Open Sans', sans-serif;
 $merriweather-serif:   'Merriweather', serif;
 $menlo:                 Menlo, Consolas, monospace;
+$LXGW-Bright-Regular:  'LXGW Bright Regular';
 
-$font-family-base: $open-sans-sans-serif;
+$font-family-base: $LXGW-Bright-Regular;
 
 $font-families: (
    // base
-   'headings':          $open-sans-sans-serif,
+   'headings':          $LXGW-Bright-Regular,
    // components
    'code':              $menlo,
-   'caption':           $merriweather-serif,
-   'image-gallery':     $open-sans,
-   'post-header-cover': $merriweather-serif,
-   'post-meta':         $open-sans-sans-serif,
-   'post-content':      $merriweather-serif,
-   'post-excerpt-link': $open-sans-sans-serif,
+   'caption':           $LXGW-Bright-Regular,
+   'image-gallery':     $LXGW-Bright-Regular,
+   'post-header-cover': $LXGW-Bright-Regular,
+   'post-meta':         $LXGW-Bright-Regular,
+   'post-content':      $LXGW-Bright-Regular,
+   'post-excerpt-link': $LXGW-Bright-Regular,
    'highlight':         $menlo,
    // layout
-   'sidebar':           $open-sans-sans-serif
+   'sidebar':           $LXGW-Bright-Regular
 );
 
 // equal to 15px
